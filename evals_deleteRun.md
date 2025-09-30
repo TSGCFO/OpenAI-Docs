@@ -13743,7 +13743,7 @@ Response
 
 gethttps://api.openai.com/v1/fine\_tuning/checkpoints/{fine\_tuned\_model\_checkpoint}/permissions
 
-**NOTE:** This endpoint requires an [admin API key](https://platform.openai.com/docs/api-reference/evals/deleteRun).
+**NOTE:** This endpoint requires an [admin API key](https://platform.openai.com/docs/api-reference/introduction).
 
 Organization owners can use this endpoint to view all permissions for a fine-tuned model checkpoint.
 
@@ -13859,7 +13859,7 @@ Response
 
 posthttps://api.openai.com/v1/fine\_tuning/checkpoints/{fine\_tuned\_model\_checkpoint}/permissions
 
-**NOTE:** Calling this endpoint requires an [admin API key](https://platform.openai.com/docs/api-reference/evals/deleteRun).
+**NOTE:** Calling this endpoint requires an [admin API key](https://platform.openai.com/docs/api-reference/introduction).
 
 This enables organization owners to share fine-tuned models with other projects in their organization.
 
@@ -13937,7 +13937,7 @@ Response
 
 deletehttps://api.openai.com/v1/fine\_tuning/checkpoints/{fine\_tuned\_model\_checkpoint}/permissions/{permission\_id}
 
-**NOTE:** This endpoint requires an [admin API key](https://platform.openai.com/docs/api-reference/evals/deleteRun).
+**NOTE:** This endpoint requires an [admin API key](https://platform.openai.com/docs/api-reference/introduction).
 
 Organization owners can use this endpoint to delete a permission for a fine-tuned model checkpoint.
 
@@ -44651,7 +44651,3 @@ OBJECT rate\_limits.updated
     ]
 }
 ```
-
-We use cookies and similar technologies to deliver, maintain, improve our services and for security purposes. Check our [Cookie Policy](https://openai.com/policies/cookie-policy) for details. Click 'Accept all' to let OpenAI and partners use cookies for these purposes. Click 'Reject all' to say no to cookies, except those that are strictly necessary. Choose 'Manage Cookies' to pick specific cookies you're okay with or to change your preferences.
-
-Reject allAccept all
